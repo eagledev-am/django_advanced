@@ -1,0 +1,34 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+.env
+.env.local
+.env.*.local
+
+data/
+
+# If you collect static files here
+/static/
+# or this if you use STATIC_ROOT
+static/
+
+# Virtual environment
+venv/
+env/
+rest_env/
+.venv/
+ENV/
+
+# VSCode / PyCharm
+.vscode/
+.idea/
