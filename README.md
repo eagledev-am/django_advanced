@@ -27,7 +27,10 @@ Run Django migrations (uses the project `manage.py`):
 python manage.py makemigrations
 python manage.py migrate
 ```
-
+Create a superuser which will used in loading data 
+```bash
+python manage.py createsuperuser
+```
 ## 4. Load sample data
 Place your MovieLens CSV files (`movies.csv`, `ratings.csv`, `tags.csv`, `links.csv`) into a folder named `data` at the project root.
 
